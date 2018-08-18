@@ -1,2 +1,2 @@
 # DeepEfficiency
-DeepEfficiency - ultimate detector efficiency inversion in HEP
+DeepEfficiency - high dimensional detector efficiency inversion in HEP
