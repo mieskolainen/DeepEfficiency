@@ -19,4 +19,4 @@ predict.sh
 make && ./deeplot
 
 <br>
-For more information: mikael.mieskolainen@cern.ch
+mikael.mieskolainen@cern.ch, 2018
