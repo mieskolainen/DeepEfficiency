@@ -1,5 +1,4 @@
 # DeepEfficiency
-optimal efficiency inversion in higher dimensions at the LHC
 
 <br>
 Tested with Python3 + Tensorflow 1.8 + ROOT libraries
