@@ -12,7 +12,7 @@ root printascii.c+ -b -q
 ## Train the networks
 train.sh
 
-## Obtain efficiency correction values
+## Obtain efficiency inversion estimates
 predict.sh
 
 ## Plot differential distributions
