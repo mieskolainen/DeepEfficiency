@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <br>
-Tested with Python3 + Tensorflow 1.8 + ROOT libraries
+Tested with Python3 & Tensorflow 1.8+ & ROOT libraries
 
 <br>
 
