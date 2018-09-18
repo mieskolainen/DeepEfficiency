@@ -9,7 +9,7 @@ Tested with Python3 + Tensorflow 1.8 + ROOT libraries
 ## Get ascii (.csv) out from ROOT trees
 root printascii.c+ -b -q
 
-## Train the networks
+## Train DeepEfficiency networks
 train.sh
 
 ## Obtain efficiency inversion estimates
