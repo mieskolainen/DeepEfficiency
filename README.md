@@ -4,10 +4,10 @@ https://arxiv.org/abs/1809.06101
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <br>
-Requirements: Python3 & Tensorflow 1.8+ & ROOT libraries
+**Requirements:** Python3 & Tensorflow 1.8+ & ROOT libraries
 <br>
 <br>
-*This is a research level proof-of-principle code. Depending on the physics application, additional algorithms, estimators and regularization techniques may be needed.
+*This is a research level proof-of-principle code. Depending on the physics application, additional algorithms, estimators and regularization techniques may be needed.*
 <br>
 
 ## Get ascii (.csv) out from ROOT trees
