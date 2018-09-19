@@ -185,11 +185,13 @@ bool Processor(const std::string& PREDICTFILE) {
         weight = 1.0 / std::min(std::max(weight, 1e-6), 1.0); // max operator regularizator for safety
 
         // ----------------------------------------------------------------
-        //        ***** FIDUCIAL CUTS AT RECONSTRUCTED LEVEL *****
-        // Note that DeepEfficiency network should be always trained with same cut as here!
-
-        if (p1_rec.Perp() > FID_PT && p2_rec.Perp() > FID_PT &&
-            std::abs(p1_rec.Eta()) < FID_ETA && std::abs(p2_rec.Eta()) < FID_ETA ) {
+        //        ***** FIDUCIAL CUTS *****
+        // Note that DeepEfficiency network should not be trained with more restrictive cuts than what
+	// one applied here.
+	
+	// Use generator level variables here, in order to be able to compare later!
+        if (p1_gen.Perp() > FID_PT && p2_gen.Perp() > FID_PT &&
+            std::abs(p1_gen.Eta()) < FID_ETA && std::abs(p2_gen.Eta()) < FID_ETA ) {
             // Event within fiducial
         } else {
             //printf("Event outside fiducial phase space!! Check numerics:: (pt,eta) = (%0.3f,%0.3f), (%0.3f, %0.3f) \n", p1_gen.Perp(), p1_gen.Eta(), p2_gen.Perp(), p2_gen.Eta());
