@@ -189,7 +189,8 @@ bool Processor(const std::string& PREDICTFILE) {
         // Note that DeepEfficiency network should not be trained with more restrictive cuts than what
 	// one applied here.
 	
-	// Use generator level variables here, in order to be able to compare later!
+	// Use generator level variables here, in order to be able to make "ground truth comparison".
+        // When working with data, this option is not possible. 
         if (p1_gen.Perp() > FID_PT && p2_gen.Perp() > FID_PT &&
             std::abs(p1_gen.Eta()) < FID_ETA && std::abs(p2_gen.Eta()) < FID_ETA ) {
             // Event within fiducial
