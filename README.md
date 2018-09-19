@@ -21,4 +21,6 @@ predict.sh
 make && ./deeplot
 
 <br>
+This is a research level proof-of-principle code, depending on the application, additional algorithms, estimators and regularization techniques may be needed.
+<br>
 mikael.mieskolainen@cern.ch, 2018
