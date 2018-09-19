@@ -182,8 +182,9 @@ bool Processor(const std::string& PREDICTFILE) {
             break;
         }
         // Inverse weight
-        weight = 1.0 / std::min(std::max(weight, 1e-6), 1.0); // max operator regularizator for safety
-
+        weight = 1.0 / std::min(std::max(weight, 1e-6), 1.0); // max operator regularizator for safety	
+	
+	
         // ----------------------------------------------------------------
         //        ***** FIDUCIAL CUTS *****
         // Note that DeepEfficiency network should not be trained with more restrictive cuts than what
