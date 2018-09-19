@@ -38,8 +38,8 @@ const double mK  = 0.493677;
 
 // ****************** FIDUCIAL DEFINITION ******************
 // We cut events here for the DeepEfficiency training phase
-// Note that these should be kept the same through whole
-// algorithmic chain!
+// Note that these should be kept the same as in the training
+// phase, or more tight.
 const double FID_PT  = 0.1; // track pt
 const double FID_ETA = 0.9; // track eta
 // *********************************************************
