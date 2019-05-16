@@ -3,6 +3,8 @@ https://arxiv.org/abs/1809.06101
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+<img width="600px" src="figs/deepnet.png">
+
 **Requirements: Python3 & Tensorflow 1.8+ & ROOT libraries**
 </br>
 </br>
