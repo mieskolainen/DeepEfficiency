@@ -31,8 +31,6 @@ predict.sh
 make && ./deeplot
 ```
 </br>
-</br>
-
 
 ## Citation
 
