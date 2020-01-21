@@ -12,16 +12,40 @@ https://arxiv.org/abs/1809.06101
 </br>
 
 ### Get ascii (.csv) out from ROOT trees
+```
 root printascii.c+ -b -q
+```
 
 ### Train DeepEfficiency networks
+```
 train.sh
+```
 
 ### Obtain efficiency inversion estimates
+```
 predict.sh
+```
 
 ### Plot differential distributions
+```
 make && ./deeplot
+```
 </br>
 </br>
-*mikael.mieskolainen@cern.ch, 2018*
+
+
+## Citation
+
+If you find this work useful, you may cite the paper:
+
+```
+@article{mieskolainen2018deepefficiency,
+    title={DeepEfficiency - optimal efficiency inversion in higher dimensions at the LHC},
+    author={Mikael Mieskolainen},
+    year={2018},
+    journal={arXiv:1809.06101},
+    eprint={1809.06101},
+    archivePrefix={arXiv},
+    primaryClass={physics.data-an}
+}
+```
