@@ -1,6 +1,9 @@
 # DeepEfficiency
 https://arxiv.org/abs/1809.06101
 
+Invited talk at IRN Terascale, Annecy, France, 2019 </br>
+https://indico.in2p3.fr/event/18701/contributions/72003/
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <img width="500px" src="figs/deepnet.png">
